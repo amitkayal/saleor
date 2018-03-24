@@ -2,6 +2,7 @@ from django.utils.translation import pgettext_lazy
 
 from ...core.utils.text import strip_html_and_truncate
 from ..widgets import CharsLeftWidget
+
 MIN_TITLE_LENGTH = 25
 MIN_DESCRIPTION_LENGTH = 120
 SEO_HELP_TEXTS = {
